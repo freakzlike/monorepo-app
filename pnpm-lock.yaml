@@ -30,6 +30,9 @@ importers:
       '@vue/tsconfig':
         specifier: ^0.4.0
         version: 0.4.0
+      jsdom:
+        specifier: ^22.1.0
+        version: 22.1.0
       typescript:
         specifier: ~5.1.6
         version: 5.1.6
@@ -79,42 +82,12 @@ importers:
       '@monorepo-app/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@tsconfig/node18':
-        specifier: ^18.2.0
-        version: 18.2.0
-      '@types/jsdom':
-        specifier: ^21.1.1
-        version: 21.1.1
-      '@types/node':
-        specifier: ^18.17.0
-        version: 18.17.0
-      '@vitejs/plugin-vue':
-        specifier: ^4.2.3
-        version: 4.2.3(vite@4.4.6)(vue@3.3.4)
       '@vue/test-utils':
         specifier: ^2.4.1
         version: 2.4.1(vue@3.3.4)
-      '@vue/tsconfig':
-        specifier: ^0.4.0
-        version: 0.4.0
-      jsdom:
-        specifier: ^22.1.0
-        version: 22.1.0
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
-      typescript:
-        specifier: ~5.1.6
-        version: 5.1.6
-      vite:
-        specifier: ^4.4.6
-        version: 4.4.6(@types/node@18.17.0)
-      vitest:
-        specifier: ^0.33.0
-        version: 0.33.0(jsdom@22.1.0)
-      vue-tsc:
-        specifier: ^1.8.6
-        version: 1.8.6(typescript@5.1.6)
 
   packages/shared:
     dependencies:
@@ -128,42 +101,9 @@ importers:
       '@monorepo-app/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@tsconfig/node18':
-        specifier: ^18.2.0
-        version: 18.2.0
-      '@types/jsdom':
-        specifier: ^21.1.1
-        version: 21.1.1
-      '@types/node':
-        specifier: ^18.17.0
-        version: 18.17.0
-      '@vitejs/plugin-vue':
-        specifier: ^4.2.3
-        version: 4.2.3(vite@4.4.6)(vue@3.3.4)
       '@vue/test-utils':
         specifier: ^2.4.1
         version: 2.4.1(vue@3.3.4)
-      '@vue/tsconfig':
-        specifier: ^0.4.0
-        version: 0.4.0
-      jsdom:
-        specifier: ^22.1.0
-        version: 22.1.0
-      npm-run-all:
-        specifier: ^4.1.5
-        version: 4.1.5
-      typescript:
-        specifier: ~5.1.6
-        version: 5.1.6
-      vite:
-        specifier: ^4.4.6
-        version: 4.4.6(@types/node@18.17.0)
-      vitest:
-        specifier: ^0.33.0
-        version: 0.33.0(jsdom@22.1.0)
-      vue-tsc:
-        specifier: ^1.8.6
-        version: 1.8.6(typescript@5.1.6)
 
 packages:
 
