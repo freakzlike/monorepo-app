@@ -2,7 +2,13 @@
   "name": "monorepo-app",
   "version": "0.0.0",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "dev": "pnpm run --filter main dev",
+    "build": "pnpm run --filter main build",
+    "lint": "pnpm run -r lint",
+    "type-check": "pnpm run -r type-check",
+    "test:unit": "pnpm run -r test:unit"
+  },
   "dependencies": {
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"

@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { add } from '@monorepo-app/shared'
+import { add } from '@monorepo-app/shared/functions'
+import { TextButton, PanelCard } from '@monorepo-app/shared/components'
 import { computed } from 'vue'
 
 const result = computed(() => add(1, 2))
@@ -7,7 +8,12 @@ const result = computed(() => add(1, 2))
 
 <template>
   <main>
-    Result:
-    {{ result }}
+    <PanelCard>
+      Result:
+      {{ result }}
+    </PanelCard>
+    <PanelCard>
+      <TextButton label="Click" />
+    </PanelCard>
   </main>
 </template>

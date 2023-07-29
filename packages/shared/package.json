@@ -2,7 +2,15 @@
   "name": "@monorepo-app/shared",
   "version": "0.0.0",
   "private": true,
-  "main": "src/index.ts",
+  "exports": {
+    "./components": {
+      "types": "./src/components/index.ts",
+      "import": "./src/components/index.ts"
+    },
+    "./functions": {
+      "import": "./src/functions/index.ts"
+    }
+  },
   "scripts": {
     "test:unit": "vitest",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
