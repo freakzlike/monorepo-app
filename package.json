@@ -6,6 +6,7 @@
     "dev": "pnpm run --filter main dev",
     "build": "pnpm run --filter main build",
     "lint": "pnpm run -r lint",
+    "lint:fix": "pnpm run -r lint --fix",
     "type-check": "pnpm run -r type-check",
     "test:unit": "pnpm run -r test:unit"
   },
@@ -19,6 +20,7 @@
     "@types/node": "^18.17.0",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vue/tsconfig": "^0.4.0",
+    "@vue/test-utils": "^2.4.1",
     "jsdom": "^22.1.0",
     "typescript": "~5.1.6",
     "vite": "^4.4.6",

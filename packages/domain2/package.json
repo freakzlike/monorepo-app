@@ -1,19 +1,11 @@
 {
-  "name": "@monorepo-app/shared",
+  "name": "@monorepo-app/domain2",
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./components": {
-      "types": "./src/components/index.ts",
-      "import": "./src/components/index.ts"
-    },
-    "./functions": {
-      "types": "./src/functions/index.ts",
-      "import": "./src/functions/index.ts"
-    },
-    "./plugins/router": {
-      "types": "./src/plugins/router/index.ts",
-      "import": "./src/plugins/router/index.ts"
+    "./routes": {
+      "types": "./src/pages/index.ts",
+      "import": "./src/pages/index.ts"
     }
   },
   "scripts": {
@@ -22,6 +14,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path ../../.gitignore"
   },
   "dependencies": {
+    "@monorepo-app/shared": "workspace:*"
   },
   "devDependencies": {
     "@monorepo-app/eslint-config": "workspace:*"
