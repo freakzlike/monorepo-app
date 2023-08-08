@@ -1,10 +1,10 @@
-import router from '@monorepo-app/shared/plugins/router'
+import router from '@monorepo-app/shared/router'
 import { routes as domain1 } from '@monorepo-app/domain1/routes'
 import { routes as domain2 } from '@monorepo-app/domain2/routes'
 
 router.addRoute({
   path: '/',
-  component: () => import('../layout/MainLayout.vue'),
+  component: () => import('../layout/AppLayout.vue'),
   children: [
     {
       path: '',

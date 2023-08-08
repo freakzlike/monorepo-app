@@ -11,9 +11,9 @@
       "types": "./src/functions/index.ts",
       "import": "./src/functions/index.ts"
     },
-    "./plugins/router": {
-      "types": "./src/plugins/router/index.ts",
-      "import": "./src/plugins/router/index.ts"
+    "./router": {
+      "types": "./src/router/index.ts",
+      "import": "./src/router/index.ts"
     }
   },
   "scripts": {
