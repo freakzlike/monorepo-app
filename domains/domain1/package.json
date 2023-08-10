@@ -14,7 +14,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path ../../.gitignore"
   },
   "dependencies": {
-    "@monorepo-app/shared": "workspace:*"
+    "@monorepo-app/shared": "workspace:*",
+    "chart.js": "4.3.3"
   },
   "devDependencies": {
     "@monorepo-app/eslint-config": "workspace:*"

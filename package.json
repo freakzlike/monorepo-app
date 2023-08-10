@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "pnpm run --filter app dev",
+    "preview": "pnpm run --filter app preview",
     "build": "pnpm run --filter app build",
     "lint": "pnpm run -r lint",
     "lint:fix": "pnpm run -r lint --fix",
